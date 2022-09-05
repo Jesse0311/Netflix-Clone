@@ -1,0 +1,188 @@
+body {
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    position: relative;
+    z-index: 0;
+}
+
+/* FONTS */
+
+#strangerThings {
+    font-family: 'ITC Benguiat W01';
+    text-transform: uppercase;
+    letter-spacing: -4px;
+    font-weight: 800;
+    font-size: 70px;
+}
+#extraction {
+    font-family: 'Agency FB Bold';
+    text-transform: uppercase;
+    letter-spacing: -4px;
+    font-weight: 800;
+    font-size: 70px;
+}
+#theOldGuard {
+    text-transform: uppercase;
+    letter-spacing: -4px;
+    font-weight: 800;
+    font-size: 70px;
+}
+#projectPower {
+    font-family: 'ITC Conduit Black Font';
+    text-transform: uppercase;
+    letter-spacing: -4px;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+#NETFLIX {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.navbar-container {
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    background: transparent;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.main-header {
+    height: 68px;
+    z-index: 2;
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    padding: 0 4%;
+    position: relative;
+    transition: background-color .4s;
+}
+
+.nav-item {
+    margin-left: 20px;
+    font-size: .8rem;
+}
+#active-user {
+    font-size: 18px;
+    margin-left: 10px;
+}
+.navbar-nav {
+    align-items: center;
+    display: flex;
+    padding: 0;
+}
+
+.secondary-nav {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: flex-end;
+    position: absolute;
+    right: 4%;
+    top: 0;
+}
+
+.navbar-header {
+    height: 70px;
+    position: relative;
+    padding-bottom: 750px;
+}
+.logout {
+    border: 1px solid;
+    color: white;
+}
+.logout:hover {
+    background-color: white;
+    color: black;
+}
+.logout:focus {
+    color: #8c8c8c;
+}
+.logout:active {
+    font-size: 20px;
+}
+
+.netflix-profile {
+    display: flex;
+    align-items: center;
+}
+#profile-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+}
+#result {
+    color: white;
+    margin: 0 40px 0 15px;
+    font-size: large;
+    
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #8c8c8c;
+}
+.nav-link:focus {
+    font-weight: 500;
+    color: white;
+}
+.carousel-item img {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    opacity: .75;
+}
+.carousel-caption {
+    height: 50%;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    left: 0;
+    text-align: left;
+    padding-left: 10px;
+}
+.carousel-caption h1 {
+    width: 40%;
+}
+.carousel-caption p {
+    width: 35%;
+}
+.carousel-control-next {
+    margin: 100px 0 100px 0;
+}
+.carousel {
+    top: 0;
+    position: absolute;
+}
+
+.row-title {
+    color: white;
+}
+.row-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 360px;
+}
+.card-header {
+    color: white;
+    font-size: 10px;
+    max-width: 170px;
+    text-overflow: ellipsis;
+    max-height: 10px;
+}
+.card-img img {
+    height: 300px;
+    margin: 0 2px 5px;
+}

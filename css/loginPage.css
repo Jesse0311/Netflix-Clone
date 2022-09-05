@@ -1,0 +1,314 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+    background-color: black;
+}
+
+
+/* Background Image */
+.bg {
+    background-size: cover;
+    background-position: center;
+    display: block;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1;
+    opacity: .5;
+}
+
+.background-image {
+    margin: auto;
+    max-width: 120%;
+    min-height: 100%;
+}
+
+
+/* Netflix Logo */
+#NETFLIX {
+    height: 55px;
+    width: 177px;
+    margin: 18px 40px;
+}
+
+.netflix-logo-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: transparent;
+    background: linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, 0));
+}
+
+/* Login Form Section */
+.form-wrapper::before {
+    content: "";
+    height: 91px;
+    display: block;
+}
+
+.form-wrapper {
+    margin: 0 auto -236px;
+    min-height: 100vh;
+    background-color: transparent;
+    max-width: 450px;
+}
+
+.login-form-main {
+    padding-bottom: 78px;
+}
+
+.login-form {
+    margin-bottom: 90px;
+    padding: 60px 68px 40px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+.form-wrapper::after {
+    content: "";
+    height: 236px;
+    display: block;
+}
+
+/* Sign In heading */
+.sign-in-logo {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+/* Input fields */
+.form-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.input-error-message {
+    font-size: 13px;
+    color: #e87c03;
+    margin-bottom: -6px;
+    padding: 6px 3px;
+}
+
+.form-input::placeholder {
+    color: #8c8c8c;
+    font-size: 17px;
+}
+
+.mb-3 input {
+    height: 50px;
+    background: #333;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+
+.mb-3 input:focus {
+    background: #333;
+}
+
+.form-password {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.password-error-message {
+    font-size: 13px;
+    color: #e87c03;
+    margin-bottom: -6px;
+    padding: 6px 3px;
+}
+
+.form-password::placeholder {
+    color: #8c8c8c;
+    font-size: 17px;
+}
+
+/* Sign In button */
+.submit-button {
+    border: none;
+    width: 100%;
+    background-color: #e50914;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 38px 0 10px;
+}
+
+.submit-button:hover {
+    background-color: #e50914;
+}
+
+.submit-button:focus {
+    background-color: #e50914;
+}
+
+.btn.btn-small {
+    display: block;
+    line-height: 48px;
+    padding: 0;
+}
+
+/* Remember me section */
+.login-form-help {
+    display: flex;
+}
+
+.login-remember-me {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    margin-bottom: -5px;
+    flex-grow: 1;
+}
+
+.login-remember-me label {
+    color: #b3b3b3;
+    font-size: 13.5px;
+    font-weight: 400;
+}
+
+.help-link {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.help-link:hover {
+    text-decoration: underline;
+    color: #b3b3b3;
+}
+
+/* Section below form */
+.recaptcha-terms-of-use {
+    padding-bottom: 60px;
+}
+
+/* Sign up now */
+.signup-now {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.signup-now a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup-now a:hover {
+    text-decoration: underline;
+    font-weight: 200;
+}
+
+/* reCAPTCHA terms of use */
+.recaptcha-terms-of-use {
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-top: 11px;
+    position: relative;
+    text-align: left;
+}
+
+.recaptcha-terms-of-use p {
+    line-height: 1.2;
+}
+
+.terms-of-use-link-button {
+    background-color: transparent;
+    border: none;
+    color: #0071eb;
+    cursor: pointer;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+}
+
+
+/* Footer */
+.footer-wrapper {
+    background: rgba(0, 0, 0, .75);
+    margin-top: 0;
+    min-width: 190px;
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+}
+
+.netflix-footer {
+    color: #737373;
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.footer-top {
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+.footer-top a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer-top a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    max-width: 1000px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.footer-link-item {
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+
+.footer-link-item a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer-link-item a:hover {
+    text-decoration: underline;
+}
